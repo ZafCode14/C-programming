@@ -60,7 +60,7 @@ int(){
 	int a = 1025;
 	int *p;
 	p = &s;
-	printf("size of integer is %d bytes\n)", sizeof(int));
+	printf("size of integer is %d bytes\n"), sizeof(int);
 	printf("Address = %d, value = %d\n", p, p*);
 	printf("Address = %d, value = %d\n", p+1, *(p+1));
 
@@ -78,7 +78,7 @@ int(){
 	int a = 1025;
 	int *p;
 	p = &s;
-	printf("size of integer is %d bytes\n)", sizeof(int));
+	printf("size of integer is %d bytes\n"), sizeof(int);
 	printf("Address = %d, value = %d\n", p, p*);
 	printf("Address = %d, value = %d\n", p+1, *(p+1));
 	
