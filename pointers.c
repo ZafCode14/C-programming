@@ -59,7 +59,7 @@ int main(){
 int(){
 	int a = 1025;
 	int *p;
-	p = &s;
+	p = &a;
 	printf("size of integer is %d bytes\n"), sizeof(int);
 	printf("Address = %d, value = %d\n", p, p*);
 	printf("Address = %d, value = %d\n", p+1, *(p+1));
